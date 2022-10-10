@@ -20,7 +20,7 @@ version = "forge-${project.mod_version}-${project.minecraft_version}"
 group = "com.laidbacksloth.${project.mod_id}"
 archivesBaseName = project.mod_id
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
 mixin {
     add sourceSets.main, "${project.mod_id}.refmap.json"
@@ -75,7 +75,7 @@ dependencies {
     minecraft project.forge_version
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
-    implementation fg.deobf("curse.maven:rubidium-574856:3929515")
+    implementation fg.deobf("curse.maven:rubidium-574856:3949659")
 }
 
 jar {
