@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.prizowo.betterbrightnesssliderrespawn.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "betterbrightnesssliderrespawn.refmap.json",
+  "mixins": [
+    "SliderControlMixin"
+  ],
+  "client": [
+    "LightTextureMixin",
+    "OptionInstanceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
