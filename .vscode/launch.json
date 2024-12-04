@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - BetterBrightnessSlider",
+        "order": 0
+      },
+      "projectName": "BetterBrightnessSlider",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dbetterbrightnesssliderrespawn%%G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - BetterBrightnessSlider",
+        "order": 1
+      },
+      "projectName": "BetterBrightnessSlider",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dbetterbrightnesssliderrespawn%%G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - BetterBrightnessSlider",
+        "order": 2
+      },
+      "projectName": "BetterBrightnessSlider",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dbetterbrightnesssliderrespawn%%G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - BetterBrightnessSlider",
+        "order": 3
+      },
+      "projectName": "BetterBrightnessSlider",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dbetterbrightnesssliderrespawn%%G:\\IDEA Project BACKUP\\BetterBrightnessSlider\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

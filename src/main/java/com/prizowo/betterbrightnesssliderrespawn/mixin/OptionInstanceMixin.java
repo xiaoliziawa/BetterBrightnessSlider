@@ -56,7 +56,7 @@ public class OptionInstanceMixin {
     }
 
     private Component toString(Double gamma) {
-        return Component.translatable("options.gamma").append(": ").append(Component.literal(Math.round(gamma * 100) + "%"));
+        return Component.translatable("options.gamma").append(": ").append(Component.literal(String.valueOf((int)(gamma * 100))));
     }
 
     private void onValueUpdate(Double brightness) {
