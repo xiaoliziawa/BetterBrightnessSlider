@@ -99,7 +99,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 
 dependencies {
-//    implementation 'curse.maven:sodium-394468:5960457'
+    implementation 'curse.maven:sodium-394468:6382657'
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
